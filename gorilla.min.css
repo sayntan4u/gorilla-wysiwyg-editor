@@ -107,6 +107,11 @@ body {
   cursor: pointer;
 }
 
+.go-toolbar-button:disabled, .go-toolbar-dropdown-button:disabled {
+  color: #ccc !important;
+  background-color: transparent !important;
+}
+
 .go-toolbar-button:not(.active):hover {
   background-color: #e9ecef;
 }
@@ -206,6 +211,16 @@ body {
 .active {
   background-color: #414141;
   color: #f8f9fa !important;
+}
+
+.active-view-only {
+  background-color: #cdcdff;
+  /* color: #f8f9fa !important; */
+}
+
+.active-view-only:hover {
+  background-color: #e7e7ff !important;
+  /* color: #414141 !important; */
 }
 
 .dropdown-content .active {
