@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorilla Notes</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="gorilla.min.css">
+</head>
+
+<body>
+    <div id="gorilla-editor"></div>
+
+    <!-- Include Gorilla Editor JavaScript -->
+    <script src="gorilla.min.js"></script>
+    <script>
+        // Initialize Gorilla Editor
+        const gorilla = new GorillaEditor("gorilla-editor", {
+            // Configuration options
+            // height: 500,
+            toolbar: true,
+            statusBar: true,
+            autosave: true
+        });
+
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        function loadIcons() {
+            lucide.createIcons();
+        }
+        loadIcons();
+    </script>
+</body>
+
+</html>
