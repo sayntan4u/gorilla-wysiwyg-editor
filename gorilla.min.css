@@ -160,12 +160,12 @@ body {
 }
 
 
-.dropdown {
+.go-dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+.go-dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -175,7 +175,7 @@ body {
   border-radius: 5px;
 }
 
-.colorPicker-content {
+.go-colorPicker-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -193,7 +193,7 @@ body {
 }
 
 /* overlay */
-.overlay {
+.go-overlay {
     position: fixed;
     display: none;
     top: 0px;
@@ -224,7 +224,7 @@ body {
   /* color: #414141 !important; */
 }
 
-.dropdown-content .active {
+.go-dropdown-content .active {
   background-color: #e9ecef;
   color: #414141 !important;
 }
@@ -242,7 +242,7 @@ body {
 }
 
 /* Colorpicker */
-.colorPicker-content .color-block{
+.go-colorPicker-content .color-block{
   min-width: 25px;
   min-height: 25px;
   /* margin: 2px; */
@@ -253,7 +253,7 @@ body {
   /* background-color: #ff4d4d; */
 }
 
-.colorPicker-content .color-block:hover{
+.go-colorPicker-content .color-block:hover{
   border: 2px solid #262626;
 }
 
