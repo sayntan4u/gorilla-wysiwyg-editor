@@ -6,25 +6,31 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
+}
+
+body{
+  margin: 0;
+  padding: 0;
 }
 
 .go-toolbar {
+  /* position: fixed; */
   z-index: 1000;
   min-height: 40px;
-  background-color: #f8f9fa;
+  background-color: #e0e0e0;
   border-bottom: 1px solid #dee2e6;
   display: flex;
-  width: 100%;
-  border-radius: 10px 10px 0px 0px;
-  padding-left: 5px;
-  padding-right: 5px;
+  width: 90%;
+  margin:0px auto;
+  /* border-radius: 0px 0px 10px 10px; */
+  border-radius: 10px;
+  padding:5px;
   box-sizing: border-box;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-  /* margin-bottom: 3px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  margin-bottom: 3px;
 }
 
 .go-fontFamily-dropdown {
@@ -124,13 +130,30 @@
 
 .go-editor {
   outline: none;
-  border: 1px solid #eee;
-  padding: 20px;
-  border-radius: 0px 0px 10px 10px;
+  /* border: 1px solid #eee; */
+  padding-top: 20px;
+  padding-bottom: 50px;
+  /* margin: 20px auto; */
+  box-sizing: border-box;
+  background-color: transparent;
+  /* border-radius: 0px 0px 10px 10px; */
   color: #414141;
-  background-color: #fff;
+  /* background-color: #fff; */
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.5;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.go-page {
+  outline: none;
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  padding: 20mm;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
 }
 
 /* .go-editor:focus {
