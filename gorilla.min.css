@@ -131,8 +131,8 @@ body{
 .go-editor {
   outline: none;
   /* border: 1px solid #eee; */
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
   /* margin: 20px auto; */
   box-sizing: border-box;
   background-color: transparent;
@@ -147,13 +147,21 @@ body{
 .go-page {
   outline: none;
   width: 210mm;
-  height: 297mm;
-  margin: 20px auto;
+  height: 290mm;
+  margin: 0px auto;
   padding: 20mm;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   box-sizing: border-box;
   background-color: #ffffff;
   border: 1px solid #ddd;
+}
+
+.go-page-break{
+  break-after: page;
+  width: 100%;
+  /* min-height: 1px; */
+  /* background-color: #262626; */
+  border-top: 3px solid #bbb;
 }
 
 /* .go-editor:focus {
